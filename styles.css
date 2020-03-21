@@ -17,3 +17,10 @@
 .googlefrench{
     text-align:center;
 }
+
+.searchdiv .search{
+    border-radius: 50px;
+    width:500px;
+    height: 30px;
+    margin-bottom:30px;
+}
