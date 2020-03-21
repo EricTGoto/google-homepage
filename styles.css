@@ -1,0 +1,19 @@
+.topnav{
+    display:grid;
+    grid-template-columns:50px 50px auto;
+    background-color:white;
+}
+
+.topnav .signin{
+    justify-self:end;
+    background-color: #4387fd;
+}
+
+.topnav .signin .signinbutton{
+    background-color: #4387fd;
+    color:white;
+
+}
+.googlefrench{
+    text-align:center;
+}
