@@ -28,3 +28,8 @@
 .searchdiv .search:hover{
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
 }
+
+.googlelogo{
+    margin-top:100px;
+    margin-bottom:30px;
+}
