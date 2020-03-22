@@ -48,7 +48,6 @@
     box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.2);
 }
 
-
 .googlelogo{
     margin-top:100px;
     margin-bottom:30px;
@@ -77,3 +76,51 @@
     border-width:1px;
     border-radius: 4px;
 }
+
+.footer{
+    border-width:2px;
+    border-color:rgba(0,0,0,0.05);
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    background-color:rgba(0,0,0,0.05);
+    display:grid;
+    align-items:end;
+    grid-template-rows:50px 50px;
+    grid-template-columns:50% 50%;
+    grid-template-areas: 
+    "country ."
+    "leftFooter rightFooter";    
+}
+
+.country{
+    border-width:2px;
+    border-color:rgba(0,0,0,0.05);
+    grid-area:country;
+    justify-self: left;
+    
+}
+
+.leftFooter{
+    grid-area:leftFooter;
+    justify-self: left;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:5px;
+ 
+    
+}
+
+.rightFooter{
+    grid-area:rightFooter;
+    justify-self: right;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.countryP{
+    margin:5px 5px 10px 5px;
+    font-size:13px;
+}
+
