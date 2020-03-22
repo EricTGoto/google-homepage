@@ -32,11 +32,35 @@
 }
 
 .searchdiv .search:hover{
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.2);
 }
 
 
 .googlelogo{
     margin-top:100px;
     margin-bottom:30px;
+}
+.buttons .searchButton{
+    color:rgba(0,0,0,0.65);
+    font-size:13px;
+    padding:7px 15px;
+    background-color:rgba(0, 0, 0, 0.034);
+    border-color:rgba(0, 0, 0, 0.034);
+    border-width:1px;
+    border-radius: 4px;
+    margin-right:10px;
+}
+
+.buttons .searchButton:hover{
+    color:rgba(0, 0, 0, 0.85);
+    border-color:rgba(0,0,0,0.2);
+}
+.buttons .luckyButton{
+    color:rgba(0, 0, 0, 0.65);
+    font-size:13px;
+    padding: 7px 15px;
+    background-color:rgba(0, 0, 0, 0.034);
+    border-color:rgba(0, 0, 0, 0.034);
+    border-width:1px;
+    border-radius: 4px;
 }
