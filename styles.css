@@ -20,10 +20,11 @@
 
 .searchdiv .search{
     border-radius: 50px;
-    width:500px;
-    height: 30px;
+    width:540px;
+    height: 35px;
     margin-bottom:30px;
     border-color:rgba(0,0,0,0.1);
+    border-width:1.5px;
 }
 
 .searchdiv .search:hover{
